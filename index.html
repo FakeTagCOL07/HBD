@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Feliz Cumpleaños</title>
+</head>
+<body>
+    <div id="login">
+        <h2>Inicio de Sesión</h2>
+        <label for="username">Nombre de usuario:</label>
+        <input type="text" id="username" required>
+        
+        <label for="age">Introduce tu edad:</label>
+        <input type="number" id="age" required>
+        
+        <button onclick="login()">Iniciar sesión</button>
+        <p id="error" class="error"></p>
+    </div>
+    
+    <div id="birthdayCard" style="display:none;">
+        <h1 id="birthdayMessage">¡Happy Birthday!</h1>
+        <button onclick="showSurprise()">Haz clic para la sorpresa</button>
+        <p id="surpriseMessage"></p>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

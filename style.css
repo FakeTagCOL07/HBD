@@ -1,0 +1,22 @@
+body {
+    background-color: #2196F3; /* Color de fondo azul */
+    color: white; /* Color de texto */
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#login {
+    margin-top: 50px;
+}
+
+.error {
+    color: red;
+}
+
+button {
+    background-color: #FFD700; /* Color dorado */
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
